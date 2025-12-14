@@ -5,7 +5,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git 'https://github.com/Shank2604/CI-CD-Pipelines-Automation-with-Jenkins.git'
+                git 'https://github.com/Shank2604/CI-CD-Pipelines-Automation-with-Jenkins/tree/master'
             }
         }
 
